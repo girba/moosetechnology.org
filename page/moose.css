@@ -44,6 +44,10 @@ a {
   padding-top: 80px;
 }
 
+.center {
+  text-align: center;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -166,6 +170,7 @@ a {
   margin-top: 60px; 
   margin-bottom: 20px;
 }
+
 
 
 .marketing .col-lg-6 p {
