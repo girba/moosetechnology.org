@@ -163,7 +163,37 @@
           </p>
         </div>
         <div class="col-md-5">
-            <h3 id="moose60">Moose 6.1 64bit (released on October 24, 2018)</h3>
+          	<h3 id="moose70">Moose 7.0 64bit nightly image</h3>
+            <p class="lead">  
+              The model of Moose is currently been refactored. The new development version is this Moose 7.0 version.
+              Download the <a href="https://ci.inria.fr/moose/job/moose-7.0-64bit/lastSuccessfulBuild/artifact/moose-7.0-64bit.zip">Moose 7.0 64bit image</a>.
+            </p>
+            <p class="lead">  
+              Run the image with the Virtual Machine for Pharo 7.0 (e.g., drag and drop the image on the virtual machine executable): <br/> <a href="http://files.pharo.org/get-files/70/pharo-linux-stable.zip">Linux</a> | <a href="http://files.pharo.org/get-files/70/pharo-mac-stable.zip">Mac</a> | <a href="http://files.pharo.org/get-files/70/pharo-win-stable.zip">Windows</a>.
+            </p>
+
+<!--             <h3 id="moose61">Moose 7.0 32bit nightly image</h3>
+            <p class="lead">  
+              The model of Moose is currently been refactored. The new development version is this Moose 7.0 version.
+              Download the <a href="https://ci.inria.fr/moose/job/moose-7.0/lastSuccessfulBuild/artifact/moose-7.0.zip">Moose 7.0 32bit image</a>.
+            </p>
+            <p class="lead">  
+              Run the image with the Virtual Machine for Pharo 7.0 (e.g., drag and drop the image on the virtual machine executable): <br/> <a href="http://files.pharo.org/get-files/70/pharo-linux-stable.zip">Linux</a> | <a href="http://files.pharo.org/get-files/70/pharo-mac-stable.zip">Mac</a> | <a href="http://files.pharo.org/get-files/70/pharo-win-stable.zip">Windows</a>.
+            </p>
+ -->
+            <h3 id="moose70code">Moose 7.0 code</h3>
+            	 <p class="lead">  
+              Load the Moose code in a <a href="http://pharo.org/download">Pharo 7.0 image</a>:
+            </p>
+            <pre>  
+Metacello new
+  baseline: 'Moose';
+  repository: 'github://moosetechnology/Moose:development/src';
+  load.
+            </pre> 
+
+
+            <h3 id="moose61">Moose 6.1 64bit (released on October 24, 2018)</h3>
             <p class="lead">  
               Download <a href="http://moosetechnology.org/res/download/moose_suite_6_1-win-64.zip">Moose 6.1 64bit for Windows</a>.
             </p>
@@ -174,7 +204,7 @@
               Download <a href="http://moosetechnology.org/res/download/moose_suite_6_1-linux-64.zip">Moose 6.1 64bit for Linux</a>.
             </p>  
 
-            <h3 id="moose60">Moose 6.1 32bit (released on October 24, 2018)</h3>
+            <h3 id="moose61">Moose 6.1 32bit (released on October 24, 2018)</h3>
             <p class="lead">  
               Download <a href="http://moosetechnology.org/res/download/moose_suite_6_1-win-32.zip">Moose 6.1 32bit for Windows</a>.
             </p>
@@ -185,7 +215,7 @@
               Download <a href="http://moosetechnology.org/res/download/moose_suite_6_1-linux-32.zip">Moose 6.1 32bit for Linux</a>.
             </p>  
 
-            <h3 id="moose61">Moose 6.1 64bit nightly image</h3>
+<!--             <h3 id="moose61">Moose 6.1 64bit nightly image</h3>
             <p class="lead">  
               Download the <a href="https://ci.inria.fr/moose/job/moose-6.1-x64/lastSuccessfulBuild/artifact/moose-6.1-x64.zip">Moose 6.1 64bit image</a>.
             </p>
@@ -206,7 +236,7 @@
             <p class="lead">  
               Run the image with the Virtual Machine for Pharo 6.1 (e.g., drag and drop the image on the virtual machine executable): <br/> <a href="http://files.pharo.org/get-files/61/pharo-linux-stable.zip">Linux</a> | <a href="http://files.pharo.org/get-files/61/pharo-mac-stable.zip">Mac</a> | <a href="http://files.pharo.org/get-files/61/pharo-win-stable.zip">Windows</a>.
             </p>
-
+ -->
             <h3 id="moose61code">Moose 6.1 code</h3>
             	 <p class="lead">  
               Load the Moose code in a <a href="http://pharo.org/download">Pharo 6.1 image</a>:
@@ -217,36 +247,7 @@ Metacello new
     configuration: 'Moose';
     version: #development;
     load.
-            </pre>       
-          
-          <h3 id="moose70">Moose 7.0 64bit nightly image</h3>
-            <p class="lead">  
-              The model of Moose is currently been refactored. The new development version is this Moose 7.0 version.
-              Download the <a href="https://ci.inria.fr/moose/job/moose-7.0-64bit/lastSuccessfulBuild/artifact/moose-7.0-64bit.zip">Moose 7.0 64bit image</a>.
-            </p>
-            <p class="lead">  
-              Run the image with the Virtual Machine for Pharo 7.0 (e.g., drag and drop the image on the virtual machine executable): <br/> <a href="http://files.pharo.org/get-files/70/pharo-linux-stable.zip">Linux</a> | <a href="http://files.pharo.org/get-files/70/pharo-mac-stable.zip">Mac</a> | <a href="http://files.pharo.org/get-files/70/pharo-win-stable.zip">Windows</a>.
-            </p>
-
-            <h3 id="moose61">Moose 7.0 32bit nightly image</h3>
-            <p class="lead">  
-              The model of Moose is currently been refactored. The new development version is this Moose 7.0 version.
-              Download the <a href="https://ci.inria.fr/moose/job/moose-7.0/lastSuccessfulBuild/artifact/moose-7.0.zip">Moose 7.0 32bit image</a>.
-            </p>
-            <p class="lead">  
-              Run the image with the Virtual Machine for Pharo 7.0 (e.g., drag and drop the image on the virtual machine executable): <br/> <a href="http://files.pharo.org/get-files/70/pharo-linux-stable.zip">Linux</a> | <a href="http://files.pharo.org/get-files/70/pharo-mac-stable.zip">Mac</a> | <a href="http://files.pharo.org/get-files/70/pharo-win-stable.zip">Windows</a>.
-            </p>
-
-            <h3 id="moose61code">Moose 6.1 code</h3>
-            	 <p class="lead">  
-              Load the Moose code in a <a href="http://pharo.org/download">Pharo 7.0 image</a>:
-            </p>
-            <pre>  
-Metacello new
-  baseline: 'Moose';
-  repository: 'github://moosetechnology/Moose:development/src';
-  load.
-            </pre> 
+            </pre>
     
 
             <h3 id="jdt2famix">jdt2famix importer for Java</h3>
